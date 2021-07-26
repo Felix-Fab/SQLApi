@@ -103,4 +103,36 @@ public class SQLApi {
     public void setPsw(String psw){
         this.psw = psw;
     }
+
+    /**
+     *
+     * @return String host
+     */
+    public String getHost(){
+        return host;
+    }
+
+    /**
+     *
+     * @return String database
+     */
+    public String getDatabase(){
+        return database;
+    }
+
+    /**
+     *
+     * @return String user
+     */
+    public String getUser(){
+        return user;
+    }
+
+    /**
+     *
+     * @return String psw
+     */
+    public String getPsw(){
+        return psw;
+    }
 }
